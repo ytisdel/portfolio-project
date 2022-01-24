@@ -27,7 +27,7 @@ h1 {
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 45px;
 }
 
 p {
@@ -65,4 +65,8 @@ p {
   padding: 15px 30px;
   color: var(--main-color);
   background-color: var(--secondary-color);
+}
+
+.project-description {
+  padding: 40px 20px;
 }

@@ -11,6 +11,13 @@
   padding: 160px 20px;
 }
 
+.lt-image {
+  background-color: black;
+  display: block;
+  padding: 50px;
+  width: 100%;
+}
+
 h1,
 h2,
 h3,
@@ -28,6 +35,35 @@ h1 {
 
 h2 {
   font-size: 45px;
+}
+
+.gallery-h2 {
+  text-align: center;
+}
+
+.about-section {
+  text-align: center;
+}
+
+.about-section h1 {
+  font-size: 96px;
+  color: var(--secondary-color);
+}
+
+#gallery {
+  line-height: 0;
+  -webkit-column-count: 5; /* split it into 5 columns */
+  -webkit-column-gap: 3px; /* give it a 5px gap between columns */
+  -moz-column-count: 5;
+  -moz-column-gap: 5px;
+  column-count: 5;
+  column-gap: 5px;
+}
+
+#gallery img {
+  width: 80% !important;
+  height: auto !important;
+  margin-bottom: 5px; /* to match column gap */
 }
 
 p {

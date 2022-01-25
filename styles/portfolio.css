@@ -11,11 +11,13 @@
   padding: 160px 20px;
 }
 
-.lt-image {
+.heading-top {
   background-color: black;
+  padding: 50px;
+}
+.lt-image {
   display: block;
-  padding: 100px;
-  width: 100%;
+  width: 50%;
 }
 
 h1,

@@ -20,6 +20,19 @@
   width: 50%;
 }
 
+content.container {
+  padding: 160px 20px;
+}
+
+.content {
+  margin: 30px;
+}
+
+.content h1 {
+  font-size: 65px;
+  line-height: 80px;
+}
+
 h1,
 h2,
 h3,

@@ -8,12 +8,17 @@
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
-.heading-top {
+.heading-top-photog {
   background-color: black;
-  padding: 50px;
+  padding: 60px 20px;
+}
+
+.heading-top-creations {
+  background: var(--secondary-color);
+  padding: 60px 20px;
 }
 .lt-image {
   display: block;
@@ -21,7 +26,7 @@
 }
 
 content.container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content {
@@ -57,13 +62,19 @@ h2 {
   text-align: center;
 }
 
-.about-section {
+.about-section,
+.about-section-creations {
   text-align: center;
 }
 
 .about-section h1 {
   font-size: 86px;
   color: var(--secondary-color);
+}
+
+.about-section-creations h1 {
+  font-size: 86px;
+  color: var(--main-color);
 }
 
 #gallery {

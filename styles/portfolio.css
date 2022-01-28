@@ -139,6 +139,10 @@ content.container {
   padding: 15px 30px;
 }
 
+.btn-branding:hover {
+  color: white;
+}
+
 .btn-branding-outline {
   border-radius: 4px;
   font-size: 18px;

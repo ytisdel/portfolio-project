@@ -130,6 +130,11 @@ content.container {
   color: var(--main-color);
 }
 
+.content-work h3 {
+  color: var(--secondary-color);
+  font-family: var(--heading-font-family);
+}
+
 .btn-branding {
   background: var(--main-color);
   border-radius: 4px;

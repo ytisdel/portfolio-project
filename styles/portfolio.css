@@ -130,6 +130,11 @@ content.container {
   color: var(--main-color);
 }
 
+.content-work h1 {
+  font-size: 65px;
+  line-height: 80px;
+}
+
 .content-work h3 {
   color: var(--secondary-color);
 }

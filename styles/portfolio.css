@@ -135,6 +135,13 @@ a {
   text-decoration: none;
   color: var(--secondary-color);
   font-family: var(--heading-font-family);
+  text-align: center;
+  font-size: calc(1.3rem + 0.6vw);
+  font-weight: bold;
+}
+
+.content-work a:hover {
+  color: var(--main-color);
 }
 
 .btn-branding {
